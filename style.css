@@ -207,6 +207,8 @@ footer p {
 table{
     width: 80%;
     margin: 20px auto;
+    overflow:auto;
+    border-radius:10px;
     border-collapse: collapse;
 }
 th,td{
