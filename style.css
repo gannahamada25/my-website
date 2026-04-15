@@ -237,11 +237,11 @@ caption{
     border: 10px solid white;
     color: rgba(0, 5, 95, 0.726);
 }
-@media (max-width:900px) {
+@media (max-width:600px) {
     table{
-        width: 60%;
-        margin: auto;
+        width: 100%;
         text-align: center;
+        font-size: 14px;
     }
     th{
         font-size: 22px;
