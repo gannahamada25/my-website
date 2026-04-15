@@ -8,8 +8,8 @@ body{
     background: linear-gradient( #23b2ff , transparent);
     width: 100%;
     min-height: 100vh;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
 }
 .container{
     height: 80%;
@@ -19,6 +19,7 @@ body{
     justify-content: space-between;
     display: flex;
     flex-direction: column;
+    margin-left: 30px;
 }
 nav{
     display: flex;
@@ -378,6 +379,7 @@ caption{
 @media (max-width: 800px) {
     .contact-form {
         width: 70%;
+        margin-bottom: 100px;
     }
 }
 .all-nav{
