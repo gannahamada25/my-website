@@ -6,16 +6,14 @@
 
 body{
     background: linear-gradient( #23b2ff , transparent);
-    height: 100vh;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 .container{
     height: 80%;
     width: 90%;
-    background: rgba(255, 255, 255, 0.2);
     position: absolute;
     border-radius: 30px ;
     justify-content: space-between;
@@ -210,6 +208,7 @@ footer p {
 table{
     width: 80%;
     margin: 20px auto;
+    margin-bottom: 100px;
     border-collapse: collapse;
 }
 th,td{
@@ -273,6 +272,7 @@ caption{
 .course-form {
     width: 50%;
     margin: 50px auto;
+    margin-bottom: 100px;
     padding: 20px;
     background: rgba(29, 83, 111, 0.146);
     border-radius: 15px;
@@ -330,6 +330,7 @@ caption{
 .contact-form {
     width: 50%;
     margin: 50px auto;
+    margin-bottom: 100px;
     padding: 20px;
     background: rgba(29, 83, 111, 0.146);
     border-radius: 15px;
@@ -378,5 +379,9 @@ caption{
     .contact-form {
         width: 70%;
     }
+}
+.all-nav{
+    text-align: center;
+    margin-top: 20px;
 }
 
