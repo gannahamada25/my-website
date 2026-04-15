@@ -239,9 +239,11 @@ caption{
 }
 @media (max-width:600px) {
     table{
-        width: 50%;
+        width:50%;
+        heigh:50%;
         text-align: center;
         font-size: 14px;
+        margin:60px;
     }
     th{
         font-size: 22px;
@@ -251,7 +253,7 @@ caption{
     }
     caption{
         font-size: 30px;
-        margin-top: 40px;
+        margin-top: 30px;
         padding: 3px;
         border: 5px solid white;
     }
