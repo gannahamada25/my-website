@@ -239,7 +239,7 @@ caption{
 }
 @media (max-width:900px) {
     table{
-        width: 70%;
+        width: 50%;
         margin-bottom: 100px;
         text-align: center;
     }
