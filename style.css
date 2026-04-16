@@ -15,7 +15,6 @@ body{
     height: 80%;
     width: 90%;
     position: absolute;
-    border-radius: 30px ;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
